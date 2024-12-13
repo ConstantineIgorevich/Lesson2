@@ -15,7 +15,7 @@ export function FilterLesson() {
     { banknots: "RUBLS", value: 50, number: " v1234567890" },
   ]);
 
-  const [buttonName, setButtonName] = useState('all');
+  const [buttonName, setButtonName] = useState<FilterType>('all');
 
   let currentMoney = money;
   if (buttonName === "Dollars") {

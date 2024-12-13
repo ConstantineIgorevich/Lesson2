@@ -4,19 +4,24 @@ import { FilterLesson2 } from "./Sprint1-Week1/FilterVersion2/FilterVersion2";
 import { MapLesson, NestedComponents } from "./Sprint1-Week1/Micro";
 import { FirstWeekOptional } from "./Sprint1-Week1/Optional";
 import { UseStateLesson } from "./Sprint1-Week1/UseStateLesson/UseStateLesson";
+import { SecondWeekOptional } from "./Sprint1-Week2/optional/SecondWeekOptional";
 
 export function App() {
   return (
     // first week
     <>
-      {/* <FirstWeekOptional /> */}
       {/* // first week microtasks */}
+      {/* <FirstWeekOptional /> */}
+
       {/* <NestedComponents /> */}
       {/* <MapLesson  /> */}
       {/* <ButtonLesson /> */}
       {/* <UseStateLesson /> */}
       {/* <FilterLesson /> */}
-      <FilterLesson2 />
+      {/* <FilterLesson2 /> */}
+
+      {/* // second week microtasks */}
+      <SecondWeekOptional />
     </>
   );
 }
