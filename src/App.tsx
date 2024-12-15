@@ -5,6 +5,7 @@ import { MapLesson, NestedComponents } from "./Sprint1-Week1/Micro";
 import { FirstWeekOptional } from "./Sprint1-Week1/Optional";
 import { UseStateLesson } from "./Sprint1-Week1/UseStateLesson/UseStateLesson";
 import { SecondWeekOptional } from "./Sprint1-Week2/optional/SecondWeekOptional";
+import { InputLesson } from "./Sprint1-Week2/input/InputLesson";
 
 export function App() {
   return (
@@ -21,7 +22,8 @@ export function App() {
       {/* <FilterLesson2 /> */}
 
       {/* // second week microtasks */}
-      <SecondWeekOptional />
+      {/* <SecondWeekOptional /> */}
+      <InputLesson />
     </>
   );
 }
